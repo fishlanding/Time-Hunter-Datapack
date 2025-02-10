@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": [
+            {
+                "translate": "game.dppack.des"
+            }
+        ],
+        "pack_format": 61
+    }
+}

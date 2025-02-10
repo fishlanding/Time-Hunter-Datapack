@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "iron": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "stepping_on": {
+                        "block": {
+                            "blocks": "iron_block"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "th:game/rewardtime/iron"
+    }
+}
