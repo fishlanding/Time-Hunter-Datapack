@@ -1,10 +1,11 @@
 # 欢迎安装
 tellraw @a [{"translate": "game.welcome.1","italic": false},{"translate": "game.welcome.author","italic": false,"bold": true,"underlined": true,"color": "#f2038f","clickEvent": {"action": "open_url","value": "https://space.bilibili.com/438381132"},"hoverEvent": {"action": "show_text","contents": [{"translate": "game.welcome.author.subscribe"}]}},{"translate": "game.welcome.2","italic": false},{"translate": "game.welcome.3","italic": false},{"translate": "game.welcome.4","italic": false},"！！！","\n","\n==========","\n",{"translate": "game.welcome.ver","italic": false},{"translate": "game.welcome.ver.now","color": "green"},"\n",{"translate": "game.welcome.mcver"},{"translate": "game.welcome.mcver.now","color": "green"},"\n","==========\n"]
-
+tellraw @a [{"translate": "game.welcome.lobby.1"},{"translate": "game.welcome.lobby.2","color": "dark_purple","bold": true},{"translate": "game.welcome.lobby.3","color": "white","bold": false},{"translate": "game.welcome.lobby.4"},"\n",{"translate": "game.welcome.lobby.1"},{"translate": "game.welcome.lobby.2","color": "dark_purple","bold": true},{"translate": "game.welcome.lobby.3","color": "white","bold": false},{"translate": "game.welcome.lobby.5"}]
 
 # 计分板
 scoreboard objectives add Lobby trigger
 scoreboard objectives add GameRule trigger
+scoreboard objectives add DefaultSet trigger
 scoreboard objectives add TimerSec dummy
 scoreboard objectives add TeamPoint dummy
 scoreboard objectives add RemoveHalf dummy
@@ -55,7 +56,8 @@ team modify shijian color dark_gray
 team modify shijian prefix [{"translate": "game.team.shijian.name","color": "dark_gray"}]
 
 # 游戏设置
-# function th:setting/default_setting
+gamerule sendCommandFeedback false
+gamerule commandBlockOutput false
 
 # 强加载
 forceload add 1597 -3 1604 4

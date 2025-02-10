@@ -1,7 +1,7 @@
 {
     "criteria": {
         "netherite": {
-            "trigger": "tick",
+            "trigger": "location",
             "conditions": {
                 "player": {
                     "stepping_on": {

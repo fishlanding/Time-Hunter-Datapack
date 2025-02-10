@@ -1,7 +1,7 @@
 {
     "criteria": {
         "iron": {
-            "trigger": "tick",
+            "trigger": "location",
             "conditions": {
                 "player": {
                     "stepping_on": {

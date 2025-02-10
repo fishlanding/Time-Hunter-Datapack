@@ -17,5 +17,5 @@ scoreboard players operation @s RemainTime -= System DeathTime
 
 
 # 通知
-title @s subtitle [{"translate": "game.ingame.removetiem.title.1"},{"score": {"name": "System","objective": "DeathTime"}}," ",{"translate": "game.ingame.rewardtime.title.2"}]
-title @s subtitle [{"translate": "game.ingame.rewardtime.shubtitle.1"},{"score": {"name": "@s","objective": "RemainTime"}},{"translate": "game.ingame.rewardtime.title.2"}]
+tellraw @s [{"translate": "game.ingame.tishiji","color": "light_purple"}," ",{"translate": "game.ingame.removetiem.title.1"}," ",{"score": {"name": "System","objective": "DeathTime"}}," ",{"translate": "game.ingame.rewardtime.title.2"}]
+tellraw @s [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.ingame.rewardtime.shubtitle.1"},{"score": {"name": "@s","objective": "RemainTime"}},{"translate": "game.ingame.rewardtime.title.2"}]

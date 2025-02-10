@@ -4,11 +4,11 @@ execute if score Timer TimerSec matches 1200 run scoreboard players remove @s[ta
 execute if score Timer TimerSec matches 1200.. run scoreboard players set Timer TimerSec 0
 
 # 死亡扣除时间
-execute if score @s[tag=removemins] DeathCheck matches 1 run function th:game/removetime/removemins
-execute if score @s[tag=removehalf] DeathCheck matches 1 run function th:game/removetime/removehalf
+execute if score @s[tag=removemins] DeathCheck matches 1.. run function th:game/removetime/removemins
+execute if score @s[tag=removehalf] DeathCheck matches 1.. run function th:game/removetime/removehalf
 
 # 击杀
-execute if score @s KillCheck matches 1 run function th:game/rewardtime/killedplayer
+execute if score @s KillCheck matches 1.. run function th:game/rewardtime/killedplayer
 
 # 个人淘汰
 execute if score @s[tag=!personout] RemainTime matches 0 run function th:game/ingame/out/personout

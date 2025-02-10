@@ -1,4 +1,13 @@
 # 默认设置
+scoreboard players set @s DefaultSet 0
+
+# 死亡不掉落、关闭队伍伤害、扣除时间固定
+tag @a add keepinv_on
+tag @a add friendfire_off
+tag @a add removemins
+tag @a remove keepinv_off
+tag @a remove friendfire_on
+tag @a remove removehalf
 
 # 开局 30 分钟
 scoreboard players set System PerTime 30

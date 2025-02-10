@@ -1,7 +1,7 @@
 {
     "criteria": {
         "copper": {
-            "trigger": "tick",
+            "trigger": "location",
             "conditions": {
                 "player": {
                     "stepping_on": {

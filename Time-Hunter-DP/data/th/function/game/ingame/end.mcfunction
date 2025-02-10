@@ -10,10 +10,15 @@ team empty Green
 team empty Blue
 team empty Yellow
 team empty shijian
+team modify Red color red
+team modify Green color green
+team modify Blue color blue
+team modify Yellow color yellow
 
 scoreboard players set @a RemainTime 0
 scoreboard players set @a TeamPoint 0
 scoreboard players set @a PerDeathCount 0
+scoreboard players set @a PerKillCount 0
 scoreboard players set Timer TimerSec 0
 scoreboard players set System RedNum 0
 scoreboard players set System GreenNum 0
@@ -28,6 +33,10 @@ scoreboard players set System GreenDeathCount 0
 scoreboard players set System BlueDeathCount 0
 scoreboard players set System YellowDeathCount 0
 
+# 重要的是说三遍
+tellraw @a [{"translate": "game.ingame.nextgame.1","color": "red","bold": true}]
+tellraw @a [{"translate": "game.ingame.nextgame.1","color": "red","bold": true}]
+tellraw @a [{"translate": "game.ingame.nextgame.1","color": "red","bold": true}]
 
 advancement revoke @a everything
 
@@ -36,5 +45,4 @@ gamemode adventure @a
 clear @a
 effect clear @a
 
-place template th:lobby 0 100 0
-tp @a 8 101 8
+function th:game/lobby
