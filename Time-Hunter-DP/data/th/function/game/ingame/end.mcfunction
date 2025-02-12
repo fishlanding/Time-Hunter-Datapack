@@ -3,6 +3,7 @@ tag @a[tag=spectator] remove spectator
 tag @a[tag=personout] remove personout
 tag @a[tag=teamout] remove teamout
 tag @a[tag=winteam] remove winteam
+tag @a[tag=joinhalfway] remove joinhalfway
 tag @a add lobby
 
 team empty Red

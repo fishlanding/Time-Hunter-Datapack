@@ -6,6 +6,9 @@ tellraw @a [{"translate": "game.welcome.lobby.1"},{"translate": "game.welcome.lo
 scoreboard objectives add Lobby trigger
 scoreboard objectives add GameRule trigger
 scoreboard objectives add DefaultSet trigger
+scoreboard objectives add Friendlyfire dummy
+scoreboard objectives add KeepInv dummy
+scoreboard objectives add RemoveTime dummy
 scoreboard objectives add TimerSec dummy
 scoreboard objectives add TeamPoint dummy
 scoreboard objectives add RemoveHalf dummy

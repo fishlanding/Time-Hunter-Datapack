@@ -1,6 +1,5 @@
 # 扣除固定时间
-tag @a remove removehalf
-tag @a add removemins
+scoreboard players set GameRuleSet RemoveTime 1
 
 tellraw @a [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.setting.removetime","color": "dark_purple","bold": true},{"translate": "game.setting.time.changed","color": "white"}," ",{"translate": "game.setting.removemins","color": "green"}]
 

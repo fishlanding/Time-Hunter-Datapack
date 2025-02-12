@@ -1,8 +1,7 @@
 # 死亡不掉落 关
 gamerule keepInventory false
 
-tag @a remove keepinv_on
-tag @a add keepinv_off
+scoreboard players set GameRuleSet KeepInv 0
 
 tellraw @a [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.setting.keepinv","color": "dark_purple","bold": true}," ",{"translate": "game.setting.off","color": "red"}]
 

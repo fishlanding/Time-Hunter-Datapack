@@ -34,3 +34,6 @@ execute if score @s[team=Green,tag=!winteam] TeamPoint matches 3 run function th
 execute if score @s[team=Blue,tag=!winteam] TeamPoint matches 3 run function th:game/ingame/win/bluewin
 # 黄队
 execute if score @s[team=Yellow,tag=!winteam] TeamPoint matches 3 run function th:game/ingame/win/yellowwin
+
+# 中途加入
+function th:game/ingame/joinhalfway/loop

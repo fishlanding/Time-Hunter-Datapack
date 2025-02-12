@@ -4,8 +4,7 @@ team modify Green friendlyFire false
 team modify Blue friendlyFire false
 team modify Yellow friendlyFire false
 
-tag @a remove friendfire_on
-tag @a add friendfire_off
+scoreboard players set GameRuleSet Friendlyfire 0
 
 tellraw @a [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.setting.friendfire","color": "dark_purple","bold": true}," ",{"translate": "game.setting.off","color": "red"}]
 
