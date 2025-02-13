@@ -41,6 +41,14 @@ scoreboard objectives add YellowDeathCount dummy [{"translate": "game.team.yello
 
 scoreboard players set System RemoveHalf 2
 
+# 物品
+scoreboard objectives add RepairItemCommon dummy
+scoreboard objectives add RepairItemFull dummy
+# 事件
+scoreboard objectives add AirDrop dummy
+scoreboard objectives add AirDropTimer dummy
+scoreboard objectives add AirDroptimerSec dummy
+
 # 队伍
 team add Red [{"translate": "game.team.red.name","color": "red"}]
 team modify Red color red

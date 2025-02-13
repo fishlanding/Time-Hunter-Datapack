@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "sentry_armor_trim_smithing_template",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"translate\": \"game.item.repairstone.common.name\",\"italic\": false}",
+                                "lore": [
+                                    "{\"translate\": \"game.item.repairstone.common.lore.2\",\"italic\": false}",
+                                    "{\"translate\": \"game.item.repairstone.common.lore.1\",\"color\": \"gray\",\"italic\": false}"
+                                ],
+                                "custom_model_data": {
+                                    "floats": [
+                                        10001
+                                    ]
+                                },
+                                "consumable": {"animation":"eat","consume_seconds":0,"sound":"block.anvil.use"},
+                                "hide_additional_tooltip":{}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
