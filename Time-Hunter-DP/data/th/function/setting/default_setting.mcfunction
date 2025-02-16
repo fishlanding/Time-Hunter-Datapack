@@ -22,6 +22,12 @@ scoreboard players set System GoldTime 10
 scoreboard players set System DiamondTime 15
 # 下界合金块时间 30 分钟
 scoreboard players set System NetheriteTime 30
+# 团队间隔
+data modify storage th:team distance set value {x:1600,place1:1597,place2:1603,remove1:1597,remove2:1604}
+scoreboard players set System TeamDistance 1600
+scoreboard players set System TeamDistancePlatPlace1 1600
+scoreboard players set System TeamDistancePlatPlace2 1600
+scoreboard players set System TeamDistancePlatRemove 1600
 
 # 提示
 tellraw @a ["\n\n\n","[",{"translate":"game.setting.default","color": "green"},"]"]

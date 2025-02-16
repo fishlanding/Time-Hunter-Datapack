@@ -48,7 +48,18 @@ scoreboard objectives add RepairItemFull dummy
 scoreboard objectives add AirDrop dummy
 scoreboard objectives add AirDropTimer dummy
 scoreboard objectives add AirDroptimerSec dummy
+# 计算
 
+# 团队间隔
+scoreboard objectives add TeamDistance dummy
+scoreboard objectives add TeamDistancePlatPlace1 dummy
+scoreboard objectives add TeamDistancePlatPlace2 dummy
+scoreboard objectives add TeamDistancePlatRemove dummy
+scoreboard objectives add TeamDistancepre trigger
+scoreboard objectives add PlatFormCalThree dummy
+scoreboard objectives add PlatFormCalFour dummy
+scoreboard players set System PlatFormCalThree 3
+scoreboard players set System PlatFormCalFour 4
 # 队伍
 team add Red [{"translate": "game.team.red.name","color": "red"}]
 team modify Red color red
@@ -70,8 +81,5 @@ team modify shijian prefix [{"translate": "game.team.shijian.name","color": "dar
 gamerule sendCommandFeedback false
 gamerule commandBlockOutput false
 
-# 强加载
-forceload add 1597 -3 1604 4
-forceload add -3 1597 3 1603
-forceload add -1596 4 -1604 -4
-forceload add -4 -1604 4 -1596
+
+

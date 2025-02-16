@@ -6,6 +6,7 @@ scoreboard players enable @a[gamemode=creative] DefaultSet
 execute as @a[scores={GameRule=1..}] run function th:game/rule
 execute as @a[scores={Lobby=1..}] run function th:game/lobby
 execute as @a[scores={DefaultSet=1..}] run function th:setting/default_setting
+execute as @a[scores={TeamDistancepre=1..}] run function th:setting/teamdistance/check
 
 # 开始 游戏倒计时 5s
 execute if score System StartTimer matches 0.. run scoreboard players remove System StartTimer 1
@@ -19,4 +20,4 @@ execute if score System StartTimer matches 0 run title @a subtitle [{"translate"
 
 # 游戏中
 execute as @a[tag=ingame,gamemode=survival] run function th:game/ingame/loop
-execute as @a[tag=ingame,gamemode=survival] run function th:game/ingame/fly/chicken_parachute
+execute as @a[tag=ingame,gamemode=survival] run function th:game/ingame/fly/chicken_parachute with storage th:team distance

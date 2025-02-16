@@ -1,0 +1,9 @@
+# 团队间隔设置 提示
+
+scoreboard players enable @s TeamDistancepre
+
+# 提示
+tellraw @s [{"translate": "game.ingame.tishiji","color":"light_purple"},{"translate": "game.setting.teamdistance.tellraw.1","color": "white"}]
+
+
+

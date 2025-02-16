@@ -18,8 +18,11 @@ fill -1 149 -1 16 165 16 air
 
 effect clear @a
 
+# 强加载
+function th:setting/teamdistance/forceload with storage th:team distance
+
 # 起飞
-function th:game/ingame/fly/chicken
+function th:game/ingame/fly/chicken with storage th:team distance
 
 # 队伍检查
 function th:game/utils/actualteams/pretreatment
