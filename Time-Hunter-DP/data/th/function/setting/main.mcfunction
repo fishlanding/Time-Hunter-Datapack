@@ -6,3 +6,6 @@ setblock 9 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"'
 setblock 8 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.menu.rule"}','{"translate": "game.menu.read","color": "green","clickEvent": {"action": "run_command","value": "/trigger GameRule"}}','"======"']}} replace 
 # 开始游戏
 setblock 7 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.menu.ready"}','{"translate": "game.menu.start","color": "green","clickEvent": {"action": "run_command","value": "/function th:game/start"}}','"======"']}} replace
+
+# 音效
+playsound ui.button.click record @s

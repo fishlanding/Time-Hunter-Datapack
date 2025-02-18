@@ -21,3 +21,5 @@ execute if score System StartTimer matches 0 run title @a subtitle [{"translate"
 # 游戏中
 execute as @a[tag=ingame,gamemode=survival] run function th:game/ingame/loop
 execute as @a[tag=ingame,gamemode=survival] run function th:game/ingame/fly/chicken_parachute with storage th:team distance
+# 事件
+execute if score System InGame matches 1 run function th:event/run

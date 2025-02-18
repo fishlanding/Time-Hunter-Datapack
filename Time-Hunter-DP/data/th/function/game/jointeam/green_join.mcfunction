@@ -12,3 +12,6 @@ advancement revoke @s only th:game/jointeam/red
 advancement revoke @s only th:game/jointeam/blue
 advancement revoke @s only th:game/jointeam/yellow
 advancement revoke @s only th:game/jointeam/shijian
+
+# 音效
+playsound item.armor.equip_iron record @s

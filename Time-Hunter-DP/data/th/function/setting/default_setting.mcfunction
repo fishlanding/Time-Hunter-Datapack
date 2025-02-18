@@ -1,13 +1,17 @@
 # 默认设置
 scoreboard players set @s DefaultSet 0
 
-# 死亡不掉落、关闭队伍伤害、扣除时间固定
+# 死亡不掉落、关闭队伍伤害、扣除时间固定、空投开
 scoreboard players set GameRuleSet KeepInv 1
 scoreboard players set GameRuleSet Friendlyfire 0
 scoreboard players set GameRuleSet RemoveTime 1
+scoreboard players set GameRuleSet AirDrop 1
+
+# 游戏 关
+scoreboard players set System InGame 0
 
 # 开局 30 分钟
-scoreboard players set System PerTime 30
+scoreboard players set System BeginTime 30
 # 死亡失去 5 分钟
 scoreboard players set System DeathTime 5
 # 击杀奖励 5 分钟
@@ -22,15 +26,23 @@ scoreboard players set System GoldTime 10
 scoreboard players set System DiamondTime 15
 # 下界合金块时间 30 分钟
 scoreboard players set System NetheriteTime 30
+# 空投间隔 15 分钟（900 秒）
+data modify storage th:event airdrop set value {intervaltime:900}
+scoreboard players set Timer AirDropTimer 900
 # 团队间隔
 data modify storage th:team distance set value {x:1600,place1:1597,place2:1603,remove1:1597,remove2:1604}
 scoreboard players set System TeamDistance 1600
 scoreboard players set System TeamDistancePlatPlace1 1600
 scoreboard players set System TeamDistancePlatPlace2 1600
 scoreboard players set System TeamDistancePlatRemove 1600
+function th:setting/teamdistance/forceload with storage th:team distance
+
 
 # 提示
 tellraw @a ["\n\n\n","[",{"translate":"game.setting.default","color": "green"},"]"]
-tellraw @a [{"translate": "game.rule.2"},{"score": {"name": "System","objective": "PerTime"},"color": "dark_purple","bold": true},{"translate": "game.rule.3"},"\n",{"translate": "game.rule.4"},{"score": {"name": "System","objective": "DeathTime"},"color": "red","bold": true},{"translate": "game.rule.3"},"\n",{"translate": "game.rule.5"},{"score": {"name": "System","objective": "KillTime"},"color": "green","bold": true},{"translate": "game.rule.3"}]
+tellraw @a [{"translate": "game.rule.2"},{"score": {"name": "System","objective": "BeginTime"},"color": "dark_purple","bold": true},{"translate": "game.rule.3"},"\n",{"translate": "game.rule.4"},{"score": {"name": "System","objective": "DeathTime"},"color": "red","bold": true},{"translate": "game.rule.3"},"\n",{"translate": "game.rule.5"},{"score": {"name": "System","objective": "KillTime"},"color": "green","bold": true},{"translate": "game.rule.3"}]
 
 tellraw @a ["\n",{"translate": "game.setting.default.2"},"\n",{"translate": "game.score.coppertime","color": "dark_purple","bold": true}," ",{"score": {"name": "System","objective": "CopperTime"},"color": "#894900","bold": true},{"translate": "game.setting.time.mins","color": "white"},"\n",{"translate": "game.score.irontime","color": "dark_purple","bold": true}," ",{"score": {"name": "System","objective": "IronTime"},"color": "white","bold": true},{"translate": "game.setting.time.mins","color": "white"},"\n",{"translate": "game.score.goldtime","color": "dark_purple","bold": true}," ",{"score": {"name": "System","objective": "GoldTime"},"color": "gold","bold": true},{"translate": "game.setting.time.mins","color": "white"},"\n",{"translate": "game.score.diamondtime","color": "dark_purple","bold": true}," ",{"score": {"name": "System","objective": "DiamondTime"},"color": "blue","bold": true},{"translate": "game.setting.time.mins","color": "white"},"\n",{"translate": "game.score.netheritetime","color": "dark_purple","bold": true}," ",{"score": {"name": "System","objective": "NetheriteTime"},"color": "black","bold": true},{"translate": "game.setting.time.mins","color": "white"}]
+
+# 音效
+playsound ui.button.click record @s

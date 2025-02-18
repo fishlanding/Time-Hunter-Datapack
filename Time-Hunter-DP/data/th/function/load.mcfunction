@@ -6,6 +6,7 @@ tellraw @a [{"translate": "game.welcome.lobby.1"},{"translate": "game.welcome.lo
 scoreboard objectives add Lobby trigger
 scoreboard objectives add GameRule trigger
 scoreboard objectives add DefaultSet trigger
+scoreboard objectives add InGame dummy
 scoreboard objectives add Friendlyfire dummy
 scoreboard objectives add KeepInv dummy
 scoreboard objectives add RemoveTime dummy
@@ -16,8 +17,10 @@ scoreboard objectives add DeathCheck deathCount
 scoreboard objectives add PerDeathCount deathCount [{"translate": "game.score.perdeathcount"}]
 scoreboard objectives add KillCheck playerKillCount
 scoreboard objectives add PerKillCount playerKillCount [{"translate": "game.score.perkillcount"}]
-scoreboard objectives add RemainTime dummy [{"translate": "game.score.remaintime"}]
-scoreboard objectives add PerTime dummy [{"translate": "game.score.pertime","color": "dark_purple"}]
+scoreboard objectives add RemainTimeSec dummy [{"translate": "game.score.remaintimesec"}]
+scoreboard objectives add RemainTimeMins dummy [{"translate": "game.score.remaintimemins"}]
+scoreboard objectives add RemainTimeHours dummy [{"translate": "game.score.remaintimehours"}]
+scoreboard objectives add BeginTime dummy [{"translate": "game.score.begintime","color": "dark_purple"}]
 scoreboard objectives add DeathTime dummy [{"translate": "game.score.deathtime","color": "red"}]
 scoreboard objectives add KillTime dummy [{"translate": "game.score.killtime","color": "green"}]
 scoreboard objectives add StartTimer dummy
@@ -47,9 +50,12 @@ scoreboard objectives add RepairItemFull dummy
 # 事件
 scoreboard objectives add AirDrop dummy
 scoreboard objectives add AirDropTimer dummy
-scoreboard objectives add AirDroptimerSec dummy
+
 # 计算
 
+# 分进时
+scoreboard objectives add 60Mins dummy
+scoreboard players set System 60Mins 60
 # 团队间隔
 scoreboard objectives add TeamDistance dummy
 scoreboard objectives add TeamDistancePlatPlace1 dummy

@@ -12,3 +12,6 @@ advancement revoke @s only th:game/jointeam/green
 advancement revoke @s only th:game/jointeam/blue
 advancement revoke @s only th:game/jointeam/yellow
 advancement revoke @s only th:game/jointeam/red
+
+# 音效
+playsound th:team.shijian.yippee record @s ~ ~ ~ 0.5

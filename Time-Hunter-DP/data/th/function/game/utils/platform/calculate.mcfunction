@@ -18,3 +18,6 @@ execute store result storage th:team distance.place2 int 1 run scoreboard player
 # 移除
 execute store result storage th:team distance.remove1 int 1 run scoreboard players get System TeamDistancePlatPlace1
 execute store result storage th:team distance.remove2 int 1 run scoreboard players get System TeamDistancePlatRemove
+
+# 强加载
+function th:setting/teamdistance/forceload with storage th:team distance

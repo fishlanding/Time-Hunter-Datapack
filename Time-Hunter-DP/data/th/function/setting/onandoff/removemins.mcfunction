@@ -5,3 +5,6 @@ tellraw @a [{"translate": "game.ingame.tishiji","color": "light_purple"},{"trans
 
 setblock 7 153 13 air
 setblock 7 153 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.removetime"}','{"translate": "game.setting.removemins","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/removehalf"}}','"======"']}} destroy
+
+# 音效
+playsound ui.button.click record @s

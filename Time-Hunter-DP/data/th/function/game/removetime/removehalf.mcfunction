@@ -13,9 +13,9 @@ execute as @s[team=Yellow] run scoreboard players add System YellowDeathCount 1
 # 死亡扣除时间
 
 # 扣除一半
-scoreboard players operation @s RemainTime /= System RemoveHalf
-
+scoreboard players operation @s RemainTimeSec /= System RemoveHalf
+scoreboard players operation @s RemainTimeMins /= System RemoveHalf
+scoreboard players operation @s RemainTimeHours /= System RemoveHalf
 
 # 通知
 tellraw @s [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.ingame.removetiem.title.1"},{"score": {"name": "System","objective": "DeathTime"}}," ",{"translate": "game.ingame.rewardtime.title.2"}]
-tellraw @s [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.ingame.rewardtime.shubtitle.1"},{"score": {"name": "@s","objective": "RemainTime"}},{"translate": "game.ingame.rewardtime.title.2"}]

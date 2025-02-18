@@ -19,6 +19,9 @@ setblock 8 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"'
 setblock 7 152 13 air
 setblock 7 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.menu.ready"}','{"translate": "game.menu.start","color": "green","clickEvent": {"action": "run_command","value": "/function th:game/start"}}','"======"']}} replace
 
+# 音效
+playsound entity.player.levelup record @s
+
 # 羊毛
 
 # summon text_display 13 153 9 {alignment:"center",text:'[{"translate": "game.team.red.join","color": "red","bold": true}]',Glowing:true,Rotation:[90f,0f],Tags:["text_join_red"]}

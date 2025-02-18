@@ -16,11 +16,15 @@ team modify Green color green
 team modify Blue color blue
 team modify Yellow color yellow
 
-scoreboard players set @a RemainTime 0
+scoreboard players set @a RemainTimeSec 0
+scoreboard players set @a RemainTimeMins 0
+scoreboard players set @a RemainTimeHours 0
 scoreboard players set @a TeamPoint 0
 scoreboard players set @a PerDeathCount 0
 scoreboard players set @a PerKillCount 0
 scoreboard players set Timer TimerSec 0
+scoreboard players set Timer AirDropTimer 0
+scoreboard players set System InGame 0
 scoreboard players set System RedNum 0
 scoreboard players set System GreenNum 0
 scoreboard players set System BlueNum 0
@@ -33,6 +37,7 @@ scoreboard players set System RedDeathCount 0
 scoreboard players set System GreenDeathCount 0
 scoreboard players set System BlueDeathCount 0
 scoreboard players set System YellowDeathCount 0
+
 
 # 重要的是说三遍
 tellraw @a [{"translate": "game.ingame.nextgame.1","color": "red","bold": true}]

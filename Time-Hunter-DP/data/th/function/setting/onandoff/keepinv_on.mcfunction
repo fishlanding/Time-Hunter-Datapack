@@ -7,3 +7,6 @@ tellraw @a [{"translate": "game.ingame.tishiji","color": "light_purple"},{"trans
 
 setblock 9 153 13 air
 setblock 9 153 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.keepinv"}','{"translate": "game.setting.on","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/keepinv_off"}}','"======"']}} destroy
+
+# 音效
+playsound ui.button.click record @s
