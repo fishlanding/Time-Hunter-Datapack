@@ -1,3 +1,4 @@
+# 绿队淘汰
 team modify Green color gray 
 tag @a[team=Green] add teamout
 

@@ -8,7 +8,7 @@
                     "children": [
                         {
                             "type": "item",
-                            "name": "enchanted_book",
+                            "name": "book",
                             "functions": [
                                 {
                                     "function": "enchant_with_levels",

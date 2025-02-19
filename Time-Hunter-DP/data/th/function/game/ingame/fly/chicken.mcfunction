@@ -1,9 +1,13 @@
+# 队伍出生点
+$spawnpoint @a[team=Red] $(x) 150 0
+$spawnpoint @a[team=Green] 0 150 $(x)
+$spawnpoint @a[team=Blue] -$(x) 150 0
+$spawnpoint @a[team=Yellow] 0 150 -$(x)
 # 队伍分散
 $tp @a[team=Red] $(x) 150 0
 $tp @a[team=Green] 0 150 $(x)
 $tp @a[team=Blue] -$(x) 150 0
 $tp @a[team=Yellow] 0 150 -$(x)
-
 
 # tp @a[team=Red] 1600 150 0
 # tp @a[team=Green] 0 150 1600

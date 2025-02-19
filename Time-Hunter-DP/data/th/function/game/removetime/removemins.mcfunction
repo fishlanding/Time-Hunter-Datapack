@@ -17,4 +17,4 @@ scoreboard players operation @s RemainTimeMins -= System DeathTime
 
 
 # 通知
-tellraw @s [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.ingame.removetiem.title.1"}," ",{"score": {"name": "System","objective": "DeathTime"}}," ",{"translate": "game.ingame.rewardtime.title.2"}]
+tellraw @s [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.ingame.removetime.tip.1"}," ",{"score": {"name": "System","objective": "DeathTime"}},{"translate": "game.ingame.removetime.tip.2"}]

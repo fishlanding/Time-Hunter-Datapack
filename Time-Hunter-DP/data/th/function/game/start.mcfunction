@@ -4,7 +4,7 @@ tag @a[tag=!ready] add spectator
 # 计分
 scoreboard players set @a[tag=ready] RemainTimeHours 0
 scoreboard players set @a[tag=ready] RemainTimeSec 0
-scoreboard players set System StartTimer 150
+scoreboard players set Timer StartTimer 100
 scoreboard players operation @a[tag=ready] RemainTimeMins = System BeginTime
 scoreboard players set System InGame 1
 scoreboard players set Timer TimerSec 20
