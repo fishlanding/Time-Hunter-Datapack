@@ -19,16 +19,16 @@
 
 ## 安装指南
 1. **文件准备**  
-   ▸ 下载最新版 `时间猎人最新版.zip`  
+   ▸ 到[Releases](https://github.com/fishlanding/Time-Hunter-Datapack/releases/latest)下载最新版
    ▸ 解压获得两个关键文件：
    - 数据包 `Time-Hunter-DP.zip`
    - 资源包 `Time-Hunter-RP.zip`
 
-2. **安装步骤**  
+3. **安装步骤**  
    ▸ 数据包：复制到 `saves/<你的世界>/datapacks/`  
    ▸ 资源包：通过游戏菜单加载（选项→资源包→拖入RP文件）
 
-3. **启动指令**  
+4. **启动指令**  
    ```markdown
    1. /reload                 # 加载数据包
    2. /trigger Lobby          # 初始化大厅
