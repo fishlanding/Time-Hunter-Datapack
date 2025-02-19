@@ -7,9 +7,9 @@
 ⏳ **时间生存机制**  
 - 初始时间：每位玩家开局拥有30分钟生存时长
 - 淘汰机制：计时归零即被淘汰
-- 死亡惩罚（可选模式）：
-  ▸ 固定扣除：5分钟
-  ▸ 百分比扣除：失去当前剩余时间的50%
+- 死亡惩罚（可选模式）：   
+  ▸ 固定扣除：5分钟   
+  ▸ 百分比扣除：失去当前剩余时间的50%   
 
 💎 **资源策略**  
  -  **时间增益**：通过挖掘/合成矿物方块（铜/铁/金/钻石/下界合金），站立在矿物方块上可增加时间
@@ -19,8 +19,8 @@
 
 ## 安装指南
 1. **文件准备**  
-   ▸ 到[Releases](https://github.com/fishlanding/Time-Hunter-Datapack/releases/latest)下载最新版
-   ▸ 解压获得两个关键文件：
+   ▸ 到[Releases](https://github.com/fishlanding/Time-Hunter-Datapack/releases/latest)下载最新版   
+   ▸ 解压获得两个关键文件：  
    - 数据包 `Time-Hunter-DP.zip`
    - 资源包 `Time-Hunter-RP.zip`
 
