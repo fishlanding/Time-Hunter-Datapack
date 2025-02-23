@@ -59,9 +59,9 @@
     "game.setting.removetime":"死亡扣除时间模式",
     "game.setting.removemins":"[固定时间]",
     "game.setting.removehalf":"[扣除一半]",
-    "game.setting.teamdistance":"团队间隔距离",
+    "game.setting.teamdistance":"队伍间隔距离",
     "game.setting.teamdistance.set":"[点击设置]",
-    "game.setting.teamdistance.tellraw.1":"使用 §n/trigger TeamDiatancepre set <格数>§r 设置团队间隔",
+    "game.setting.teamdistance.tellraw.1":"使用 §n/trigger TeamDiatance set <格数>§r 设置队伍间隔",
     "game.setting.airdrop":"空投",
     "game.setting.time.setting":"时间相关设置",
     "game.setting.time.book":"[树枝调整书]",
@@ -120,7 +120,6 @@
      
     "game.start.title":"游戏将在 5 秒后开始",
     "game.start.title.1":"开始游戏！！！",
-    "game.start.subtitle.1":"鸡将在 30 秒后消失，尽快选好降落地点",
  
     "game.ingame.tishiji":"[提示姬] ",
     "game.ingame.rewardtime.tip.1":"奖励",

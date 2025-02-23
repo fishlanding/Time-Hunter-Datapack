@@ -1,7 +1,5 @@
-# 团队距离设置
-scoreboard players operation System TeamDistance = @s TeamDistancepre
-
-function th:game/utils/platform/calculate
+# 队伍距离设置
+scoreboard players operation System TeamDistance = @s TeamDistance
 
 execute store result storage th:team distance.x int 1 run scoreboard players get System TeamDistance
 

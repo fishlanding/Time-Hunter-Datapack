@@ -10,4 +10,3 @@ execute if score Timer StartTimer matches 20 run title @a title "1"
 # 提示标题
 execute if score Timer StartTimer matches 20 run title @a times 10 60 20
 execute if score Timer StartTimer matches 2 run title @a title [{"translate": "game.start.title.1"}]
-execute if score Timer StartTimer matches 1 run title @a subtitle [{"translate": "game.start.subtitle.1"}]

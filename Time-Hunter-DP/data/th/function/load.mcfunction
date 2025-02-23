@@ -72,16 +72,11 @@ scoreboard objectives add NetheriteUsageCount dummy [{"translate": "game.score.n
 # 分进时
 scoreboard objectives add 60Mins dummy
 scoreboard players set System 60Mins 60
-# 团队间隔
-scoreboard objectives add TeamDistance dummy
-scoreboard objectives add TeamDistancePlatPlace1 dummy
-scoreboard objectives add TeamDistancePlatPlace2 dummy
-scoreboard objectives add TeamDistancePlatRemove dummy
-scoreboard objectives add TeamDistancepre trigger
-scoreboard objectives add PlatFormCalThree dummy
-scoreboard objectives add PlatFormCalFour dummy
-scoreboard players set System PlatFormCalThree 3
-scoreboard players set System PlatFormCalFour 4
+# 队伍间隔
+scoreboard objectives add TeamDistance trigger
+# 出生坐标
+scoreboard objectives add SpawnX dummy
+scoreboard objectives add SpawnY dummy
 # 队伍
 team add Red [{"translate": "game.team.red.name","color": "red"}]
 team modify Red color red

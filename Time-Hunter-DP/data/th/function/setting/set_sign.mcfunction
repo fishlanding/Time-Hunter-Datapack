@@ -11,7 +11,7 @@ execute if score GameRuleSet Friendlyfire matches 1 run setblock 8 153 13 birch_
 # 时间扣除模式
 execute if score GameRuleSet RemoveTime matches 1 run setblock 7 153 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.removetime"}','{"translate": "game.setting.removemins","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/removehalf"}}','"======"']}} destroy
 execute if score GameRuleSet RemoveTime matches 0 run setblock 7 153 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.removetime"}','{"translate": "game.setting.removehalf","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/removemins"}}','"======"']}} destroy
-# 团队间隔
+# 队伍间隔
 setblock 9 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.teamdistance"}','{"translate": "game.setting.teamdistance.set","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/teamdistance/tip"}}','"======"']}}
 # 空投
 execute if score GameRuleSet AirDrop matches 1 run setblock 8 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.airdrop"}','{"translate": "game.setting.on","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/airdrop_off"}}','"======"']}}

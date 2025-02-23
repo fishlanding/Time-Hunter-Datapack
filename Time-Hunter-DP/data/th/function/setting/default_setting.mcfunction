@@ -29,13 +29,9 @@ scoreboard players set System NetheriteTime 30
 # 空投间隔 15 分钟（900 秒）
 data modify storage th:event airdrop set value {intervaltime:900}
 scoreboard players set Timer AirDropTimer 900
-# 团队间隔
-data modify storage th:team distance set value {x:1600,place1:1597,place2:1603,remove1:1597,remove2:1604}
+# 队伍间隔
+data modify storage th:team distance set value {x:1600}
 scoreboard players set System TeamDistance 1600
-scoreboard players set System TeamDistancePlatPlace1 1600
-scoreboard players set System TeamDistancePlatPlace2 1600
-scoreboard players set System TeamDistancePlatRemove 1600
-function th:setting/teamdistance/forceload with storage th:team distance
 
 
 # 提示
