@@ -31,5 +31,8 @@ function th:game/utils/actualteams/pretreatment
 # 音效
 playsound ui.button.click record @s
 
+# 物品设置
+function th:setting/item_setting
+
 # 队伍传送
 function th:game/ingame/spread_teams/random_tp with storage th:team distance

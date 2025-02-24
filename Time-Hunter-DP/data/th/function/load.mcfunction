@@ -12,6 +12,7 @@ scoreboard objectives add InGame dummy
 scoreboard objectives add DefaultSet trigger
 scoreboard objectives add Friendlyfire dummy
 scoreboard objectives add KeepInv dummy
+scoreboard objectives add NaturalRegen dummy
 scoreboard objectives add RemoveTime dummy
 scoreboard objectives add TimerSec dummy
 scoreboard objectives add TeamPoint dummy
@@ -53,7 +54,10 @@ scoreboard objectives add YellowDeathCount dummy [{"translate": "game.team.yello
 # 物品
 scoreboard objectives add RepairItemCommon dummy
 scoreboard objectives add RepairItemFull dummy
+scoreboard objectives add RandomTpTimer dummy
 # 事件
+
+# 空投
 scoreboard objectives add AirDrop dummy
 scoreboard objectives add AirDropTimer dummy
 
@@ -98,6 +102,3 @@ team modify shijian prefix [{"translate": "game.team.shijian.name","color": "dar
 gamerule sendCommandFeedback false
 gamerule commandBlockOutput false
 gamerule doImmediateRespawn true
-
-
-

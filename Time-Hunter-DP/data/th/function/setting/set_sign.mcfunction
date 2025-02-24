@@ -16,6 +16,9 @@ setblock 9 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"'
 # 空投
 execute if score GameRuleSet AirDrop matches 1 run setblock 8 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.airdrop"}','{"translate": "game.setting.on","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/airdrop_off"}}','"======"']}}
 execute if score GameRuleSet AirDrop matches 0 run setblock 8 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.airdrop"}','{"translate": "game.setting.off","color": "red","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/airdrop_on"}}','"======"']}}
+# 自然恢复
+execute if score GameRuleSet NaturalRegen matches 1 run setblock 9 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.naturalregen"}','{"translate": "game.setting.on","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/naturalregen_off"}}','"======"']}}
+execute if score GameRuleSet NaturalRegen matches 0 run setblock 9 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.naturalregen"}','{"translate": "game.setting.off","color": "red","clickEvent": {"action": "run_command","value": "/function th:setting/onandoff/naturalregen_on"}}','"======"']}}
 # 时间相关设置
 setblock 6 153 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"','{"translate": "game.setting.time.setting"}','{"translate": "game.setting.time.book","color": "green","clickEvent": {"action": "run_command","value": "/function th:setting/timesetbook"}}','"======"']}} destroy
 # 返回

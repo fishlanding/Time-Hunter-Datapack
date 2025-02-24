@@ -5,25 +5,25 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "sentry_armor_trim_smithing_template",
+                    "name": "ward_armor_trim_smithing_template",
                     "functions": [
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\": \"game.item.repairstone.common.name\",\"italic\": false}",
+                                "custom_name": "{\"translate\": \"game.item.random_tp.name\",\"color\": \"dark_purple\",\"bold\": true,\"italic\": false}",
                                 "lore": [
-                                    "{\"translate\": \"game.item.repairstone.common.lore.2\",\"italic\": false}",
+                                    "{\"translate\": \"game.item.random_tp.lore.1\",\"color\": \"red\",\"italic\": false}",
                                     "{\"translate\": \"game.item.right_click.used\",\"color\": \"gray\",\"italic\": false}"
                                 ],
                                 "custom_model_data": {
                                     "floats": [
-                                        10001
+                                        10002
                                     ]
                                 },
                                 "consumable": {
                                     "animation": "eat",
                                     "consume_seconds": 0,
-                                    "sound": "block.anvil.use"
+                                    "sound": "entity.fox.teleport"
                                 },
                                 "hide_additional_tooltip": {}
                             }

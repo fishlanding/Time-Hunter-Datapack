@@ -1,11 +1,12 @@
 # 默认设置
 scoreboard players set @s DefaultSet 0
 
-# 死亡不掉落、关闭队伍伤害、扣除时间固定、空投开
+# 死亡不掉落、关闭队伍伤害、扣除时间固定、空投开、自然恢复开
 scoreboard players set GameRuleSet KeepInv 1
 scoreboard players set GameRuleSet Friendlyfire 0
 scoreboard players set GameRuleSet RemoveTime 1
 scoreboard players set GameRuleSet AirDrop 1
+scoreboard players set GameRuleSet NaturalRegen 1
 
 # 游戏 关
 scoreboard players set System InGame 0
@@ -32,7 +33,6 @@ scoreboard players set Timer AirDropTimer 900
 # 队伍间隔
 data modify storage th:team distance set value {x:1600}
 scoreboard players set System TeamDistance 1600
-
 
 # 提示
 tellraw @a ["\n\n\n","[",{"translate":"game.setting.default","color": "green"},"]"]

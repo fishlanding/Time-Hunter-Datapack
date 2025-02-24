@@ -9,7 +9,7 @@
     "game.welcome.3": "时间猎人",
     "game.welcome.4": "数据包",
     "game.welcome.ver": "当前数据包版本：",
-    "game.welcome.ver.now": "0.0.2",
+    "game.welcome.ver.now": "0.0.3",
     "game.welcome.mcver": "对应我的世界版本：",
     "game.welcome.mcver.now": "1.21.4",
     "game.welcome.lobby.1":"在",
@@ -63,6 +63,7 @@
     "game.setting.teamdistance.set":"[点击设置]",
     "game.setting.teamdistance.tellraw.1":"使用 §n/trigger TeamDiatance set <格数>§r 设置队伍间隔",
     "game.setting.airdrop":"空投",
+    "game.setting.naturalregen":"自然恢复",
     "game.setting.time.setting":"时间相关设置",
     "game.setting.time.book":"[树枝调整书]",
     "game.setting.time.changed":"已修改为：",
@@ -154,13 +155,18 @@
     "game.event.airdrop.tellraw.pos":"投放坐标：",
     "game.event.airdrop.chest":"§c空§e投§b箱§q子§r",
      
+    "game.item.right_click.used":"右键使用",
     "game.item.repairstone.common.name":"普通修复石",
-    "game.item.repairstone.common.lore.1":"右键使用",
     "game.item.repairstone.common.lore.2":"一次修复 §l1/4§r 耐久",
     "game.item.repairstone.used.tellraw.1":"将需要修复的物品放置在主手，点击",
     "game.item.repairstone.used.tellraw.2":"[修复]",
     "game.item.repairstone.used.tellraw.3":"，即可修复主手物品 §l1/4§r 耐久",
     "game.item.repairstone.used.tellraw.4":"修复成功！",
     "game.item.repairstone.used.tellraw.5":"主手物品匹配失败！重新放置主手物品！",
-    "game.item.repairstone.used.tellraw.6":"未使用 §l普通修复石§r ！"
+    "game.item.repairstone.used.tellraw.6":"未使用 §l普通修复石§r ！",
+    "game.item.random_tp.name":"随机传送石",
+    "game.item.random_tp.lore.1":"使用后会造成卡顿！",
+    "game.item.random_tp.check.1":"随机传送还在冷却！",
+    "game.item.random_tp.check.2":"秒后可使用！",
+    "game.item.random_tp.used.1":"进行了随机传送，可能会造成卡顿！"
 }

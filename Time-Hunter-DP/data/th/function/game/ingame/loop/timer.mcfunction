@@ -2,7 +2,7 @@
 
 scoreboard players remove Timer TimerSec 1
 # 
-execute if score Timer TimerSec matches 1 run function th:game/ingame/loop/all_timer
+execute if score Timer TimerSec matches 1 as @s[tag=!personout] run function th:game/ingame/loop/all_timer
 # 20 Ticks => 1 秒
 execute if score Timer TimerSec matches 1 run scoreboard players remove @s[tag=!personout] RemainTimeSec 1
 execute if score @s[tag=!personout] RemainTimeSec matches -1 run scoreboard players remove @s RemainTimeMins 1
