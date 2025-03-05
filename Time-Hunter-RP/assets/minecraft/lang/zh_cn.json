@@ -156,6 +156,8 @@
     "game.event.airdrop.chest":"§c空§e投§b箱§q子§r",
      
     "game.item.right_click.used":"右键使用",
+    "game.item.tellraw.consume":"已消耗",
+    "game.item.tellraw.used":"已使用",
     "game.item.repairstone.common.name":"普通修复石",
     "game.item.repairstone.common.lore.2":"一次修复 §l1/4§r 耐久",
     "game.item.repairstone.used.tellraw.1":"将需要修复的物品放置在主手，点击",
@@ -168,5 +170,15 @@
     "game.item.random_tp.lore.1":"使用后会造成卡顿！",
     "game.item.random_tp.check.1":"随机传送还在冷却！",
     "game.item.random_tp.check.2":"秒后可使用！",
-    "game.item.random_tp.used.1":"进行了随机传送，可能会造成卡顿！"
+    "game.item.random_tp.used.1":"进行了随机传送，可能会造成卡顿！",
+    "game.item.random_tp.used.2":"冷却完毕，现在可使用！",
+    "game.item.time_chip.name":"时间晶片",
+    "game.item.time_chip.lore.1":"特殊的碎片",
+    "game.item.time_chip.used1.1":" §l1§r 个§d时间晶片§r，奖励 §a2§r 分钟！",
+    "game.item.time_chip.used5.1":" §l5§r 个§d时间晶片§r，随机抽取一瓶药水！",
+    "game.item.time_chip.used20.1":" §l20§r 个§d时间晶片§r，随机复活了一个队友！",
+     
+    "game.addon.check.yes":"检测到安装了",
+    "game.addon.chunky":" Chunky",
+    "game.addon.chunky.1":"，开始预生成区块。"
 }

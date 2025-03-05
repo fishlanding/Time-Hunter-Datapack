@@ -30,6 +30,9 @@ scoreboard players set @a RemainTimeSec 0
 scoreboard players set @a RemainTimeMins 0
 scoreboard players set @a RemainTimeHours 0
 scoreboard players set @a SurvivalTime 0
+# 物品
+# 随机传送石
+scoreboard players set @a RandomTpTimer 0
 # 队伍得分
 scoreboard players set @a TeamPoint 0
 # 队伍人数、淘汰数、死亡数

@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "th:item/repairstone/common"
+        "function": "th:items/repairstone/common"
     }
 }

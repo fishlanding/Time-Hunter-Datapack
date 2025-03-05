@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "random_tp": {
+        "item_chip": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {
                     "components": {
                         "custom_model_data": {
-                            "floats": [
-                                10002
+                            "strings": [
+                                "time_chip"
                             ]
                         }
                     }
@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "th:item/random_tp/check_cd"
+        "function": "th:items/time_chip/check"
     }
 }

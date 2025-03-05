@@ -31,7 +31,7 @@
                         },
                         {
                             "type": "loot_table",
-                            "value": "th:item/repairstone/common"
+                            "value": "th:items/repairstone/common"
                         }
                     ]
                 }

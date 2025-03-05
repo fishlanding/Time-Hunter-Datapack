@@ -1,4 +1,6 @@
 # 欢迎安装
+
+tellraw @a "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 tellraw @a [{"translate": "game.welcome.1","italic": false},{"translate": "game.welcome.author","italic": false,"bold": true,"underlined": true,"color": "#f2038f","clickEvent": {"action": "open_url","value": "https://space.bilibili.com/438381132"},"hoverEvent": {"action": "show_text","contents": [{"translate": "game.welcome.author.subscribe"}]}},{"translate": "game.welcome.2","italic": false},{"translate": "game.welcome.3","italic": false},{"translate": "game.welcome.4","italic": false},"！！！","\n","\n==========","\n",{"translate": "game.welcome.ver","italic": false},{"translate": "game.welcome.ver.now","color": "green"},"\n",{"translate": "game.welcome.mcver"},{"translate": "game.welcome.mcver.now","color": "green"},"\n","==========\n"]
 tellraw @a [{"translate": "game.welcome.lobby.1"},{"translate": "game.welcome.lobby.2","color": "dark_purple","bold": true},{"translate": "game.welcome.lobby.3","color": "white","bold": false},{"translate": "game.welcome.lobby.4"},"\n",{"translate": "game.welcome.lobby.1"},{"translate": "game.welcome.lobby.2","color": "dark_purple","bold": true},{"translate": "game.welcome.lobby.3","color": "white","bold": false},{"translate": "game.welcome.lobby.5"}]
 
@@ -52,9 +54,15 @@ scoreboard objectives add BlueDeathCount dummy [{"translate": "game.team.blue.de
 scoreboard objectives add YellowDeathCount dummy [{"translate": "game.team.yellow.deathcount"}]
 
 # 物品
+
+# 钓鱼竿
+scoreboard objectives add CarrotStickUsed used:carrot_on_a_stick
+# 修复石
 scoreboard objectives add RepairItemCommon dummy
 scoreboard objectives add RepairItemFull dummy
+# 随机传送石
 scoreboard objectives add RandomTpTimer dummy
+
 # 事件
 
 # 空投

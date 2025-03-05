@@ -1,5 +1,9 @@
 {
     "values": [
-        "th:load"
+        "th:load",
+        {
+            "id": "addon:chunky/begin",
+            "required": false
+        }
     ]
 }
