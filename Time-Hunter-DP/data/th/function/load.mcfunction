@@ -63,6 +63,12 @@ scoreboard objectives add RepairItemFull dummy
 # 随机传送石
 scoreboard objectives add RandomTpTimer dummy
 
+# 护甲
+
+# 凋零骸骨胸甲
+scoreboard objectives add WitherThornCD dummy
+scoreboard objectives add DamageTaken custom:damage_taken
+
 # 事件
 
 # 空投

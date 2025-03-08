@@ -1,7 +1,5 @@
 # 检测
 
-
-
 # 1 个
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:flint",components:{"minecraft:custom_model_data":{strings:["time_chip"]}},count:1}}] run return run function th:items/time_chip/1
 # 5 个

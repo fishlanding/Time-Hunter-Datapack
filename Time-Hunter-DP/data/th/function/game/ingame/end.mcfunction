@@ -33,6 +33,9 @@ scoreboard players set @a SurvivalTime 0
 # 物品
 # 随机传送石
 scoreboard players set @a RandomTpTimer 0
+# 护甲
+# 凋零骸骨胸甲
+scoreboard players set @a WitherThornCD 10
 # 队伍得分
 scoreboard players set @a TeamPoint 0
 # 队伍人数、淘汰数、死亡数

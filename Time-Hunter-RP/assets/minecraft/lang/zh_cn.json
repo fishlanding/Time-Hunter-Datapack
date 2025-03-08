@@ -155,6 +155,12 @@
     "game.event.airdrop.tellraw.pos":"投放坐标：",
     "game.event.airdrop.chest":"§c空§e投§b箱§q子§r",
      
+    "game.enchantment.cook.name":"炒菜",
+    "game.enchantment.blaze_burst.name":"爆裂",
+    "game.enchantment.wither.name":"凋零",
+    "game.enchantment.wither_thorn.name":"凋零荆棘",
+    "game.enchantment.ender_touch.name":"末影之触",
+
     "game.item.right_click.used":"右键使用",
     "game.item.tellraw.consume":"已消耗",
     "game.item.tellraw.used":"已使用",
@@ -178,7 +184,26 @@
     "game.item.time_chip.used5.1":" §l5§r 个§d时间晶片§r，随机抽取一瓶药水！",
     "game.item.time_chip.used20.1":" §l20§r 个§d时间晶片§r，随机复活了一个队友！",
      
+    "game.weapon.guochan.name":"锅铲",
+    "game.weapon.guochan.lore.1":"给你炒飞起来！",
+    "game.weapon.enderblade.name":"末影之刃",
+    "game.weapon.enderblade.lore.1":"攻击时有概率将目标随机传送",
+    "game.weapon.enderblade.lore.2":"对末影人造成双倍基础伤害",
+    "game.weapon.blazing_burst_bow.name":"炽焰爆裂弓",
+    "game.weapon.blazing_burst_bow.lore.1":"射出的箭矢落地后引发3x3范围爆炸",
+    "game.weapon.blazing_burst_bow.lore.2":"消耗3支箭作为弹药",
+    "game.weapon.withered_chain_hammer.name":"凋零链锤",
+    "game.weapon.withered_chain_hammer.lore.1":"近战攻击附带凋零效果",
+    "game.weapon.withered_chain_hammer.lore.2":"击杀生物有概率掉落凋零玫瑰",
+     
+    "game.armor.withered_bone_chestplate.name":"凋零骸骨胸甲",
+    "game.armor.withered_bone_chestplate.lore.1":"免疫凋零效果",
+    "game.armor.withered_bone_chestplate.lore.2":"攻击者获得6秒凋零I CD：10s",
+
+     
     "game.addon.check.yes":"检测到安装了",
     "game.addon.chunky":" Chunky",
-    "game.addon.chunky.1":"，开始预生成区块。"
+    "game.addon.chunky.1":"，开始预生成区块。",
+     
+    "moyu":"吃饭ing"
 }
