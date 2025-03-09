@@ -10,3 +10,6 @@ execute as @a[scores={TeamDistance=1..}] run function th:setting/teamdistance/ch
 
 # 物品使用-胡萝卜钓竿检测
 execute as @a[scores={CarrotStickUsed=1..}] run function th:items/carrotstick_check
+
+# 中途加入
+function th:game/ingame/joinhalfway/loop

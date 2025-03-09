@@ -14,6 +14,7 @@
     "per_level_above_first": 1
   },
   "supported_items": "#enchantable/bow",
+  "exclusive_set": "infinity",
   "slots": [
     "mainhand"
   ],
@@ -26,11 +27,51 @@
         }
       }
     ],
-    "projectile_count":[
+    "projectile_count": [
       {
         "effect": {
           "type": "set",
           "value": 1
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "explode",
+          "large_particle": {
+            "type": "explosion"
+          },
+          "small_particle": {
+            "type": "explosion"
+          },
+          "radius": 0.4,
+          "knockback_multiplier": {
+            "type": "linear",
+            "base": 0.3,
+            "per_level_above_first": 0.1
+          },
+          "sound": {
+            "sound_id": "entity.generic.explode"
+          },
+          "block_interaction": "tnt",
+          "create_fire": true,
+          "immune_blocks": [
+            "grass_block",
+            "stone",
+            "sand",
+            "dirt",
+            "end_stone"
+          ]
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#arrows"
+          }
         }
       }
     ],
@@ -39,7 +80,7 @@
         "effect": {
           "type": "explode",
           "large_particle": {
-            "type": "explosion_emitter"
+            "type": "explosion"
           },
           "small_particle": {
             "type": "explosion"
@@ -57,6 +98,19 @@
             "dirt",
             "end_stone"
           ]
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#arrows"
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "th:weapons/blaze_burst_arrow"
         }
       }
     ]

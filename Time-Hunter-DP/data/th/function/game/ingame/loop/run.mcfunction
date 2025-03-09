@@ -20,6 +20,3 @@ function th:game/ingame/loop/out_check
 
 # 胜利检测
 function th:game/ingame/loop/win_check
-
-# 中途加入
-function th:game/ingame/joinhalfway/loop
