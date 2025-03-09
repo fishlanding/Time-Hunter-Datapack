@@ -101,16 +101,10 @@
         },
         "requirements": {
           "condition": "entity_properties",
-          "entity": "direct_attacker",
+          "entity": "this",
           "predicate": {
             "type": "#arrows"
           }
-        }
-      },
-      {
-        "effect": {
-          "type": "run_function",
-          "function": "th:weapons/blaze_burst_arrow"
         }
       }
     ]

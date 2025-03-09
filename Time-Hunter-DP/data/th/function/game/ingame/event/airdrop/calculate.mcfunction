@@ -16,7 +16,7 @@ execute as @s[team=Yellow] store result storage th:event airdrop_pos.[3].yellowx
 execute as @s[team=Yellow] store result storage th:event airdrop_pos.[3].yellowy double 1 run data get entity @s Pos.[2]
 
 # 生成
-execute as @s[team=Red] run function th:event/airdrop/team/red with storage th:event airdrop_pos.[0]
-execute as @s[team=Green] run function th:event/airdrop/team/green with storage th:event airdrop_pos.[1]
-execute as @s[team=Blue] run function th:event/airdrop/team/blue with storage th:event airdrop_pos.[2]
-execute as @s[team=Yellow] run function th:event/airdrop/team/yellow with storage th:event airdrop_pos.[3]
+execute as @s[team=Red] run function th:game/ingame/event/airdrop/team/red with storage th:event airdrop_pos.[0]
+execute as @s[team=Green] run function th:game/ingame/event/airdrop/team/green with storage th:event airdrop_pos.[1]
+execute as @s[team=Blue] run function th:game/ingame/event/airdrop/team/blue with storage th:event airdrop_pos.[2]
+execute as @s[team=Yellow] run function th:game/ingame/event/airdrop/team/yellow with storage th:event airdrop_pos.[3]

@@ -1,11 +1,20 @@
 # 默认设置
 scoreboard players set @s DefaultSet 0
 
-# 死亡不掉落、关闭队伍伤害、扣除时间固定、空投开、自然恢复开
+# 死亡不掉落 开
 scoreboard players set GameRuleSet KeepInv 1
+gamerule keepInventory true
+# 友伤 关
 scoreboard players set GameRuleSet Friendlyfire 0
+team modify Red friendlyFire false
+team modify Green friendlyFire false
+team modify Blue friendlyFire false
+team modify Yellow friendlyFire false
+# 扣除时间 固定
 scoreboard players set GameRuleSet RemoveTime 1
+# 空投 开
 scoreboard players set GameRuleSet AirDrop 1
+# 自然恢复 开
 scoreboard players set GameRuleSet NaturalRegen 1
 
 # 游戏 关
@@ -31,8 +40,8 @@ scoreboard players set System NetheriteTime 30
 data modify storage th:event airdrop set value {intervaltime:900}
 scoreboard players set Timer AirDropTimer 900
 # 队伍间隔
-data modify storage th:team distance set value {x:1600}
-scoreboard players set System TeamDistance 1600
+data modify storage th:team distance set value {x:200}
+scoreboard players set System TeamDistance 200
 
 # 提示
 tellraw @a ["\n\n\n","[",{"translate":"game.setting.default","color": "green"},"]"]
