@@ -1,0 +1,30 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "bbb",
+        "bab",
+        "bbb"
+    ],
+    "key": {
+        "a": "iron_sword",
+        "b": "copper_ingot"
+    },
+    "result": {
+        "id": "iron_sword",
+        "components": {
+            "custom_name": "{\"translate\": \"game.weapon.short_sword.name\",\"italic\": false}",
+            "enchantment_glint_override": false,
+            "enchantments": {
+                "levels": {
+                    "sharpness": 1
+                },
+                "show_in_tooltip": false
+            },
+            "custom_model_data": {
+                "strings": [
+                    "short_sword"
+                ]
+            }
+        }
+    }
+}

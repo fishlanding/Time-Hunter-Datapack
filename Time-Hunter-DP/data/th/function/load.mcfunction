@@ -116,3 +116,5 @@ team modify shijian prefix [{"translate": "game.team.shijian.name","color": "dar
 gamerule sendCommandFeedback false
 gamerule commandBlockOutput false
 gamerule doImmediateRespawn true
+
+give @s iron_sword[lore=['{"text": " 7.5 ","italic":false,"color": "dark_green","extra": [{"translate": "game.weapon.hold.attack_damage"}]}']]

@@ -184,6 +184,9 @@
     "game.item.time_chip.used5.1":" §l5§r 个§d时间晶片§r，随机抽取一瓶药水！",
     "game.item.time_chip.used20.1":" §l20§r 个§d时间晶片§r，随机复活了一个队友！",
      
+    "game.weapon.hold":"在主手时：",
+    "game.weapon.hold.attack_damage":"攻击伤害",
+    "game.weapon.hold.attack_speed":"攻击速度",
     "game.weapon.guochan.name":"锅铲",
     "game.weapon.guochan.lore.1":"给你炒飞起来！",
     "game.weapon.enderblade.name":"末影之刃",
@@ -195,6 +198,9 @@
     "game.weapon.withered_chain_hammer.name":"凋零链锤",
     "game.weapon.withered_chain_hammer.lore.1":"近战攻击附带凋零效果",
     "game.weapon.withered_chain_hammer.lore.2":"击杀生物有概率掉落凋零玫瑰",
+    "game.weapon.short_sword.name":"短剑",
+    "game.weapon.short_bow.name":"短弓",
+    "game.weapon.lightly_netherite_sword.name":"下界合金短剑",
      
     "game.armor.withered_bone_chestplate.name":"凋零骸骨胸甲",
     "game.armor.withered_bone_chestplate.lore.1":"免疫凋零效果",
