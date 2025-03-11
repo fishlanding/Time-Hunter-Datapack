@@ -34,6 +34,6 @@ execute as @s[team=Blue] run tp @a[tag=reborn,team=Blue] @s
 tag @a[tag=reborn] remove personout
 gamemode survival @a[tag=reborn]
 # 通告
-tellraw @a [{"translate": "game.ingame.tishiji","color": "light_purple"},{"selector": "@s"},{"translate": "game.item.tellraw.consume","color": "white"},{"translate": "game.item.time_chip.used20.1","color": "white"}]
+tellraw @a [{translate: "game.ingame.tishiji",color: "light_purple"},{"selector": "@s"},{translate: "game.item.tellraw.consume",color: "white"},{translate: "game.item.time_chip.used20.1",color: "white"}]
 # 重置
 advancement revoke @s only th:items/item_chip

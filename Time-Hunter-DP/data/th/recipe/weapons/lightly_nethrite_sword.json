@@ -13,12 +13,12 @@
     "result": {
         "id": "netherite_sword",
         "components": {
-            "custom_name": "{\"translate\": \"game.weapon.lightly_netherite_sword.name\",\"color\": \"dark_gray\",\"italic\": false}",
+            "custom_name": {"translate": "game.weapon.lightly_netherite_sword.name","color": "dark_gray","italic": false},
             "lore": [
-                "\"\"",
-                "{\"translate\": \"game.weapon.hold\",\"color\": \"white\",\"italic\": false}",
-                "{\"text\": \" 7.5 \",\"italic\":false,\"color\": \"dark_green\",\"extra\": [{\"translate\": \"game.weapon.hold.attack_damage\"}]}",
-                "{\"text\": \" 1.6 \",\"italic\":false,\"color\": \"dark_green\",\"extra\": [{\"translate\": \"game.weapon.hold.attack_speed\"}]}"
+                "",
+                {"translate": "game.weapon.hold","color": "white","italic": false},
+                {"text": " 7.5 ","italic":false,"color": "dark_green","extra": [{"translate": "game.weapon.hold.attack_damage"}]},
+                {"text": " 1.6 ","italic":false,"color": "dark_green","extra": [{"translate": "game.weapon.hold.attack_speed"}]}
             ],
             "attribute_modifiers": [
                 {
@@ -29,7 +29,7 @@
                     "id": "223131"
                 }
             ],
-            "hide_additional_tooltip": {},
+            "tooltip_display":{"hidden_components": ["attribute_modifiers"]},
             "custom_model_data": {
                 "strings": [
                     "lightly_netherite_sword"

@@ -12,10 +12,10 @@
     "result": {
         "id": "ward_armor_trim_smithing_template",
         "components": {
-            "custom_name": "{\"translate\": \"game.item.random_tp.name\",\"color\": \"dark_purple\",\"bold\": true,\"italic\": false}",
+            "custom_name": {"translate": "game.item.random_tp.name","color": "dark_purple","bold": true,"italic": false},
             "lore": [
-                "{\"translate\": \"game.item.random_tp.lore.1\",\"color\": \"red\",\"italic\": false}",
-                "{\"translate\": \"game.item.right_click.used\",\"color\": \"gray\",\"italic\": false}"
+                {"translate": "game.item.random_tp.lore.1","color": "red","italic": false},
+                {"translate": "game.item.right_click.used","color": "gray","italic": false}
             ],
             "custom_model_data": {
                 "floats": [
@@ -26,8 +26,7 @@
                 "animation": "eat",
                 "consume_seconds": 0,
                 "sound": "entity.fox.teleport"
-            },
-            "hide_additional_tooltip": {}
+            }
         },
         "count": 1
     }

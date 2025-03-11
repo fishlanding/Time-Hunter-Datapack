@@ -4,4 +4,4 @@ scoreboard players add @s PerKillCount 1
 
 scoreboard players operation @s RemainTimeMins += System KillTime
 
-title @s title [{"translate": "game.ingame.rewardtime.tip.1"}," ",{"score": {"name": "System","objective": "KillTime"}},{"translate": "game.ingame.rewardtime.tip.2"}]
+title @s title [{translate: "game.ingame.rewardtime.tip.1"}," ",{score: {name: "System",objective: "KillTime"}},{translate: "game.ingame.rewardtime.tip.2"}]

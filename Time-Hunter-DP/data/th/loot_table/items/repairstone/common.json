@@ -10,10 +10,10 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\": \"game.item.repairstone.common.name\",\"italic\": false}",
+                                "custom_name": {"translate": "game.item.repairstone.common.name","italic": false},
                                 "lore": [
-                                    "{\"translate\": \"game.item.repairstone.common.lore.2\",\"italic\": false}",
-                                    "{\"translate\": \"game.item.right_click.used\",\"color\": \"gray\",\"italic\": false}"
+                                    {"translate": "game.item.repairstone.common.lore.2","italic": false},
+                                    {"translate": "game.item.right_click.used","color": "gray","italic": false}
                                 ],
                                 "custom_model_data": {
                                     "floats": [
@@ -24,8 +24,8 @@
                                     "animation": "eat",
                                     "consume_seconds": 0,
                                     "sound": "block.anvil.use"
-                                },
-                                "hide_additional_tooltip": {}
+                                }
+                                
                             }
                         }
                     ]

@@ -1,9 +1,9 @@
 tag @s add ready
 
 # 通知
-title @s title [{"translate": "game.team.join.title.1"},{"translate": "game.team.red.name","color": "red","bold": true}]
+title @s title [{translate: "game.team.join.title.1"},{translate: "game.team.red.name",color: "red",bold: true}]
 
-tellraw @a [{"selector": "@s"},{"translate": "game.team.join.tellraw.1","color": "white"},{"translate": "game.team.red.name","color": "red","bold": true}]
+tellraw @a [{"selector": "@s"},{translate: "game.team.join.tellraw.1",color: "white"},{translate: "game.team.red.name",color: "red",bold: true}]
 
 # 加入红队
 team join Red @s

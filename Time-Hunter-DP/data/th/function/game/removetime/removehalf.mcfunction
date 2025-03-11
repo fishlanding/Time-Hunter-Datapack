@@ -18,4 +18,4 @@ scoreboard players operation @s RemainTimeMins /= System 2Divisor
 scoreboard players operation @s RemainTimeHours /= System 2Divisor
 
 # 通知
-tellraw @s [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.ingame.removetime.tip.3","color": "white"}]
+tellraw @s [{translate: "game.ingame.tishiji",color: "light_purple"},{translate: "game.ingame.removetime.tip.3",color: "white"}]

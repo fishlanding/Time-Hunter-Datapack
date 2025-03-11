@@ -15,4 +15,4 @@ execute as @s[team=Yellow] run scoreboard players add System YellowDeathCount 1
 # 固定分钟
 scoreboard players operation @s RemainTimeMins -= System DeathTime
 # 通知
-tellraw @s [{"translate": "game.ingame.tishiji","color": "light_purple"},{"translate": "game.ingame.removetime.tip.1"},{"score": {"name": "System","objective": "DeathTime"}},{"translate": "game.ingame.removetime.tip.2","color": "white"}]
+tellraw @s [{translate: "game.ingame.tishiji",color: "light_purple"},{translate: "game.ingame.removetime.tip.1"},{score: {name: "System",objective: "DeathTime"}},{translate: "game.ingame.removetime.tip.2",color: "white"}]

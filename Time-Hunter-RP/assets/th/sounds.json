@@ -2,7 +2,7 @@
     "team.shijian.yippee": {
         "sounds": [
             {
-                "name": "th:team/shijian/yippee"
+                name: "th:team/shijian/yippee"
             }
         ]
     }

@@ -13,21 +13,19 @@
   "result": {
     "id": "bow",
     "components": {
-      "custom_name": "{\"translate\": \"game.weapon.blazing_burst_bow.name\",\"color\": \"dark_purple\",\"italic\": false}",
+      "custom_name": {"translate": "game.weapon.blazing_burst_bow.name","color": "dark_purple","italic": false},
       "lore": [
-        "{\"translate\": \"game.enchantment.blaze_burst.name\",\"color\": \"light_purple\",\"italic\": false}",
-        "{\"translate\": \"game.weapon.blazing_burst_bow.lore.1\",\"color\": \"gray\"}",
-        "{\"translate\": \"game.weapon.blazing_burst_bow.lore.2\",\"color\": \"gray\"}"
+        {"translate": "game.enchantment.blaze_burst.name","color": "light_purple","italic": false},
+        {"translate": "game.weapon.blazing_burst_bow.lore.1","color": "gray"},
+        {"translate": "game.weapon.blazing_burst_bow.lore.2","color": "gray"}
       ],
       "enchantment_glint_override": false,
       "enchantments": {
-        "levels": {
-          "power": 2,
-          "fire_aspect": 1,
-          "th:blaze_burst": 1
-        },
-        "show_in_tooltip": false
-      },
+        "power": 2,
+        "fire_aspect": 1,
+        "th:blaze_burst": 1
+    },
+    "tooltip_display": {"hidden_components": ["enchantments"]},
       "custom_model_data": {
         "strings": [
           "blazing_burst_bow"

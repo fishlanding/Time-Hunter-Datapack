@@ -10,4 +10,4 @@ execute if score System BlueNum matches 1.. run scoreboard players add @a[team=B
 execute if score System YellowNum matches 1.. run scoreboard players add @a[team=Yellow] TeamPoint 1
 
 # 通告
-tellraw @a [{"translate": "game.team.red.name","color": "red","bold": true}," ",{"translate": "game.ingame.out.tellraw.1"}]
+tellraw @a [{translate: "game.team.red.name",color: "red",bold: true}," ",{translate: "game.ingame.out.tellraw.1"}]

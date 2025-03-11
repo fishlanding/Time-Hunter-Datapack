@@ -10,9 +10,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "custom_name": "{\"translate\":\"game.item.time_chip.name\",\"color\": \"dark_purple\",\"bold\": true,\"italic\": false}",
+                                "custom_name": {"translate":"game.item.time_chip.name","color": "dark_purple","bold": true,"italic": false},
                                 "lore": [
-                                    "{\"translate\": \"game.item.time_chip.lore.1\",\"color\": \"gray\",\"italic\": false}"
+                                    {"translate": "game.item.time_chip.lore.1","color": "gray","italic": false}
                                 ],
                                 "max_stack_size": 20,
                                 "consumable": {

@@ -10,9 +10,9 @@
             {
               "function": "set_components",
               "components": {
-                "custom_name": "{\"translate\": \"game.weapon.guochan.name\",\"color\": \"dark_purple\",\"italic\": false}",
+                "custom_name": {"translate": "game.weapon.guochan.name","color": "dark_purple","italic": false},
                 "lore": [
-                  "{\"translate\": \"game.weapon.guochan.lore.1\",\"color\": \"gray\"}"
+                  {"translate": "game.weapon.guochan.lore.1","color": "gray"}
                 ],
                 "enchantments": {
                   "th:cook": 1
@@ -33,6 +33,7 @@
                     "id": "253422"
                   }
                 ],
+                "tooltip_display": {"hidden_components": ["attribute_modifiers","enchantments"]},
                 "custom_model_data": {
                   "strings": [
                     "guochan"

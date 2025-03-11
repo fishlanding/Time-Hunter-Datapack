@@ -2,7 +2,7 @@
     "pack": {
         "description": [
             {
-                "translate": "game.rppack.des"
+                translate: "game.rppack.des"
             }
         ],
         "pack_format": 46

@@ -13,7 +13,7 @@ scoreboard players set Timer TimerSec 20
 
 # 开始标题
 title @a times 0 20 0
-title @a title [{"translate": "game.start.title"}]
+title @a title [{translate: "game.start.title"}]
 
 # 更改游戏模式
 gamemode survival @a[tag=ingame]
