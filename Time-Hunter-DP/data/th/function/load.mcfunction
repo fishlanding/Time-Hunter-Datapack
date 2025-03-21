@@ -116,3 +116,6 @@ team modify shijian prefix [{translate: "game.team.shijian.name",color: "dark_gr
 gamerule sendCommandFeedback false
 gamerule commandBlockOutput false
 gamerule doImmediateRespawn true
+
+# 配方
+function th:give_recipe

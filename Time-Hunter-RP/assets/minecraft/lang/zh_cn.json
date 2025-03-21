@@ -160,6 +160,7 @@
     "game.enchantment.wither.name":"凋零",
     "game.enchantment.wither_thorn.name":"凋零荆棘",
     "game.enchantment.ender_touch.name":"末影之触",
+    "game.enchantment.auto_smelt.name":"自动冶炼",
 
     "game.item.right_click.used":"右键使用",
     "game.item.tellraw.consume":"已消耗",
@@ -201,6 +202,8 @@
     "game.weapon.short_sword.name":"短剑",
     "game.weapon.short_bow.name":"短弓",
     "game.weapon.lightly_netherite_sword.name":"下界合金短剑",
+
+    "game.tool.smelter_pickaxe.name":"冶炼镐",
      
     "game.armor.withered_bone_chestplate.name":"凋零骸骨胸甲",
     "game.armor.withered_bone_chestplate.lore.1":"免疫凋零效果",
