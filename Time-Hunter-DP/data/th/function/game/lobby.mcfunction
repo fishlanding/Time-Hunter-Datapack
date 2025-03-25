@@ -1,9 +1,10 @@
 tag @a add lobby
 scoreboard players set @s Lobby 0
 
-place template th:lobby 0 150 0
+# 放置大厅，设置出生点
 setworldspawn 8 151 8
 tp @a 8 151 8
+place template th:lobby 0 150 0
 
 effect give @a saturation infinite 1 true
 effect give @a resistance infinite 4 true
