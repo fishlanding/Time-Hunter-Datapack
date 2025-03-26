@@ -6,14 +6,17 @@
         " c "
     ],
     "key": {
-        "a":"raw_iron",
-        "b":"coal",
-        "c":"stick"
+        "a": "raw_iron",
+        "b": "coal",
+        "c": "stick"
     },
     "result": {
         "id": "iron_pickaxe",
         "components": {
-            "custom_name": {"translate": "game.tool.smelter_pickaxe.name","italic": false},
+            "custom_name": {
+                "translate": "game.tool.smelter_pickaxe.name",
+                "italic": false
+            },
             "enchantments": {
                 "th:auto_smelt": 1
             },

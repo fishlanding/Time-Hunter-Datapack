@@ -1,5 +1,4 @@
-# 存活时间
-scoreboard players add @s SurvivalTime 1
+
 
 # 事件
 

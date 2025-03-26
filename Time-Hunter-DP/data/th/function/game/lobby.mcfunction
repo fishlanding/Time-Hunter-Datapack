@@ -12,13 +12,13 @@ effect give @a resistance infinite 4 true
 
 # 游戏设置
 setblock 9 152 13 air
-setblock 9 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"',{translate: "game.menu.setting"},{translate: "game.menu.modify",color: "green",click_event: {action: "run_command",command: "function th:setting/set_sign"}},'"======"']}} replace
+setblock 9 152 13 birch_wall_sign[facing=north]{front_text:{messages:['======',{translate: "game.menu.setting"},{translate: "game.menu.modify",color: "green",click_event: {action: "run_command",command: "function th:setting/set_sign"}},'======']}} replace
 # 查看规则
 setblock 8 152 13 air
-setblock 8 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"',{translate: "game.menu.rule"},{translate: "game.menu.read",color: "green",click_event: {action: "run_command",command: "trigger GameRule"}},'"======"']}} replace 
+setblock 8 152 13 birch_wall_sign[facing=north]{front_text:{messages:['======',{translate: "game.menu.rule"},{translate: "game.menu.read",color: "green",click_event: {action: "run_command",command: "trigger GameRule"}},'======']}} replace 
 # 开始游戏
 setblock 7 152 13 air
-setblock 7 152 13 birch_wall_sign[facing=north]{front_text:{messages:['"======"',{translate: "game.menu.ready"},{translate: "game.menu.start",color: "green",click_event: {action: "run_command",command: "function th:game/start"}},'"======"']}} replace
+setblock 7 152 13 birch_wall_sign[facing=north]{front_text:{messages:['======',{translate: "game.menu.ready"},{translate: "game.menu.start",color: "green",click_event: {action: "run_command",command: "function th:game/start"}},'======']}} replace
 
 # 音效
 playsound entity.player.levelup record @s
